@@ -1,0 +1,71 @@
+.content {
+  height: 628px;
+}
+footer {
+  height: 70px;
+  background-color: rgb(173, 173, 173);
+  color: white;
+  padding: 20px;
+}
+
+.sidenav {
+  padding-top: 30px;
+  background-color: aliceblue;
+}
+
+.sidenav h4 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  padding: 20px;
+}
+
+.sidenav a {
+  text-align: left;
+  text-decoration: dashed;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding: 20px;
+}
+
+.sidenav a:hover {
+  color: rgb(197, 184, 255);
+}
+
+.page {
+  width: 100%;
+  padding: 8px;
+}
+
+.page:hover {
+  background-color: rgb(255, 203, 203);
+  transition: 1s;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+}
+
+.main-content h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.ad {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .sidenav {
+    height: auto;
+  }
+  .content {
+    height: auto;
+  }
+  .page {
+    margin-bottom: 10px;
+  }
+}
